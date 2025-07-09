@@ -1,4 +1,4 @@
-# 🕹️ So_long "PAC-MAN"
+# So_long "PAC-MAN"
 
 <p align="center">
   <img src="assets/demo.png" alt="Demonstração do Projeto" width="600"/>
@@ -9,7 +9,7 @@ No modo bônus, há uma demonstração autêntica de **movimentação autônoma 
 
 ---
 
-## 🎯 Objetivo do Jogo
+## Objetivo do Jogo
 
 Você controla o personagem principal (Pac-Man) e deve:
 - Coletar todos os pontos no mapa (`C`)
@@ -18,7 +18,7 @@ Você controla o personagem principal (Pac-Man) e deve:
 
 ---
 
-## 🧱 Estrutura do Mapa
+## Estrutura do Mapa
 
 O mapa é carregado de um arquivo `.ber` e deve conter:
 - `1`: parede (intransponível)
@@ -30,7 +30,7 @@ O mapa é carregado de um arquivo `.ber` e deve conter:
 
 ---
 
-## 🕹️ Controles
+## Controles
 
 | Tecla | Ação            |
 |-------|-----------------|
@@ -42,7 +42,7 @@ O mapa é carregado de um arquivo `.ber` e deve conter:
 
 ---
 
-## ⚙️ Compilação
+## Compilação
 
 Clone o projeto e compile com `make`:
 
@@ -51,3 +51,58 @@ git clone https://github.com/pgomes42/So_long.git
 cd So_long
 make
 ```
+
+---
+
+## Execução
+
+### Modo Normal
+```bash
+./so_long maps/valids/map_valid_0.ber
+```
+
+### Modo Bônus (com fantasmas)
+```bash
+./so_long_bonus maps/valids_bonus/map_valid_4.ber
+```
+
+---
+
+## Estrutura do Projeto
+
+```
+So_long/
+├── src/              # Código fonte principal
+├── src_bonus/        # Código fonte do modo bônus
+├── include/          # Headers
+├── maps/             # Mapas do jogo
+├── assets/           # Recursos gráficos
+├── lib/              # Bibliotecas (libft, minilibx)
+└── Makefile          # Compilação
+```
+
+---
+
+## Características
+
+- Interface gráfica usando MinilibX
+- Movimentação suave do personagem
+- Sistema de coleta de pontos
+- Validação rigorosa de mapas
+- Modo bônus com inimigos autônomos
+- Animações e sprites customizados
+
+---
+
+## Dependências
+
+- MinilibX (incluída no projeto)
+- libft (incluída no projeto)
+- GCC
+- Make
+
+---
+
+## Licença
+
+Este projeto foi desenvolvido como parte do currículo da 42 Luanda.
