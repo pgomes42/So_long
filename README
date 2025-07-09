@@ -1,7 +1,52 @@
 <p align="center">
-  <img src="./assets/ele.gif" alt="Demonstração do Projeto" width="600"/>
+  <img src="./img/wall.xpm" alt="Demonstração do Projeto" width="600"/>
 </p>
 
-# Meu So_long "PAC MAN"
+# 🕹️ So_long "PAC-MAN"
 
-O bonus e uma autenttica demonstracao de automnomia de movimentacao dos fantasmas
+Este projeto é uma versão personalizada do jogo *Pac-Man*, desenvolvida como parte do currículo da 42 Luanda.  
+No modo bônus, há uma demonstração autêntica de **movimentação autônoma dos fantasmas**, o que adiciona desafio e dinamismo à jogabilidade.
+
+---
+
+## 🎯 Objetivo do Jogo
+
+Você controla o personagem principal (Pac-Man) e deve:
+- Coletar todos os pontos no mapa (`C`)
+- Evitar os fantasmas (`T`)
+- Chegar à saída (`E`) **somente após coletar todos os pontos**
+
+---
+
+## 🧱 Estrutura do Mapa
+
+O mapa é carregado de um arquivo `.ber` e deve conter:
+- `1`: parede (intransponível)
+- `0`: caminho livre
+- `P`: posição inicial do jogador
+- `C`: coletável
+- `E`: saída
+- `T`: inimigo (modo bônus)
+
+---
+
+## 🕹️ Controles
+
+| Tecla | Ação            |
+|-------|-----------------|
+| W     | Mover para cima |
+| A     | Mover para esquerda |
+| S     | Mover para baixo |
+| D     | Mover para direita |
+| ESC   | Sair do jogo    |
+
+---
+
+## ⚙️ Compilação
+
+Clone o projeto e compile com `make`:
+
+```bash
+git clone https://github.com/pgomes42/So_long.git
+cd So_long
+make
