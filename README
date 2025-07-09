@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="./assets/ele.gif" alt="Demonstração do Projeto" width="600"/>
-</div>
+![Demonstração do Projeto](./assets/ele.gif)
 
 # 🕹️ So_long "PAC-MAN"
 
@@ -50,3 +48,4 @@ Clone o projeto e compile com `make`:
 git clone https://github.com/pgomes42/So_long.git
 cd So_long
 make
+```
