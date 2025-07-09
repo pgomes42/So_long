@@ -1,7 +1,7 @@
 # So_long "PAC-MAN"
 
 <p align="center">
-  <img src="assets/demo.png" alt="Demonstração do Projeto" width="600"/>
+  <img src="assets/ele.gif" alt="Demonstração do Projeto" width="600"/>
 </p>
 
 Este projeto é uma versão personalizada do jogo *Pac-Man*, desenvolvida como parte do currículo da 42 Luanda.  
