@@ -98,7 +98,7 @@ So_long/
 
 - MinilibX (incluída no projeto)
 - libft (incluída no projeto)
-- GCC
+- CC
 - Make
 
 ---
